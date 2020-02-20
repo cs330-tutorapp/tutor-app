@@ -1,18 +1,18 @@
-title {
-     font-size: 10em;
-     padding: 50px;
-     margin:100px;
-     color:red;
- }
+
 body {
     margin: none;
     font-family: Arial;
  }
+
+div span {
+   font-size: 30pt;
+   color:purple;
+   font-style: italic;
+   font-weight: bold;
+ }
  body * {
     box-sizing: border-box;
  }
- 
- 
 
  input {
      width: 100%;
@@ -24,11 +24,13 @@ body {
      background-clip: padding-box;
      border: 1px solid #ced4da;
      border-radius: .25rem;
+     margin-top: 25px;
  }
+
  table {
     width: 100%;
     margin-top: 20px;
-   
+
  }
  table td, table th  {
     padding: .75rem;
@@ -38,15 +40,12 @@ body {
 
  table th:first-child {
     width: 50%;
-   
+
  }
  table th {
     text-align: left;
  }
- 
+
  .hide {
     display: none;
  }
-
-
-
