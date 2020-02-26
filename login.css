@@ -13,6 +13,7 @@
     padding-top: 60px;
   }
   
+
   /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
@@ -21,13 +22,6 @@
     width: 80%; /* Could be more or less, depending on screen size */
   }
 
-/* Forgot Password and Cancel Container */
- .close .modal-content animate .container2 .psw {
-    font-size: 100px;
-    color: purple;
-}
-
-  
   
   /* The Close Button */
   .close {
