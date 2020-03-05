@@ -1,6 +1,6 @@
+
 const message = (ev) => {
-    const term = document.querySelector('#search').value;
-    console.log('search for:', term);
+    const term = document.querySelector('#input').value;
     sendmessage(term);
     if (ev) {
         ev.preventDefault();
@@ -17,13 +17,15 @@ const sendmessage = (term) => {
 };
 
 
-document.querySelector('#search').onkeyup = (ev) => {
+document.querySelector('#input').onkeyup = (ev) => {
     // Number 13 is the "Enter" key on the keyboard
     console.log(ev.keyCode);
     if (ev.keyCode === 13) {
+        
+        ev.preventDefault();
         message();
         ev.currentTarget.value= '';
-        ev.preventDefault();
 
     }
 };
+

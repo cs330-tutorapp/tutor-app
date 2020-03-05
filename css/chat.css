@@ -1,21 +1,35 @@
 
- #Title {
-     font-size: xx-large;
-     padding: 20px;
-     color:gray;
-     margin-left: 45%;
-     display: inline-block;
-     margin-bottom: 30px;
- }
-
- input {
-     width: 100%;
-     padding: .375rem .75rem;
-     font-size: 1em;
-     line-height: 1.5;
-     color: #495057;
-     background-color: #fff;
-     background-clip: padding-box;
-     border: 1px solid #ced4da;
-     border-radius: .25rem;
- }
+ /* Chat containers */
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Clear floats */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .container img {
+    float: left;
+    max-width: 100px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style time text */
+  .time {
+    float: right;
+    color: #aaa;
+    text-align: end;
+    font-size: large;
+  }
+  
+  

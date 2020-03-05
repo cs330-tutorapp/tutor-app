@@ -1,3 +1,37 @@
+body {
+   font-size: 28px;
+ }
+ 
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: purple;
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 0;
+ }
+ 
+ li {
+   float: left;
+ }
+ 
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ li a:hover {
+   background-color: grey;
+ }
+ 
+ .active {
+   background-color: #4CAF50;
+ }
 
 body {
     margin: none;
@@ -10,21 +44,12 @@ div span {
    font-style: italic;
    font-weight: bold;
  }
+ 
  body * {
     box-sizing: border-box;
  }
  
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
 
- li {
-    display: inline;
-    margin: 10px;
-    font-size: large;
- }
 
  #Title {
      font-size: xx-large;
@@ -58,8 +83,12 @@ div span {
     vertical-align: top;
     border-top: 1px solid #dee2e6;
  }
+
+ button {
+    font-size: 30px;
+ }
  table th:first-child {
-    width: 28%;
+    width: 20%;
 
  }
  table th {
