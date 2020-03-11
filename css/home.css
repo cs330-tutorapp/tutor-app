@@ -2,19 +2,22 @@ body {
    font-size: 28px;
  }
  
+ /* navigation bar */
  ul {
    list-style-type: none;
    margin: 0;
    padding: 0;
    overflow: hidden;
-   background-color: purple;
-   position: -webkit-sticky; /* Safari */
-   position: sticky;
-   top: 0;
+   background-color:purple;
  }
  
  li {
    float: left;
+   border-right:1px solid #bbb;
+ }
+ 
+ li:last-child {
+   border-right: none;
  }
  
  li a {
@@ -25,13 +28,15 @@ body {
    text-decoration: none;
  }
  
- li a:hover {
-   background-color: grey;
+ li a:hover:not(.active) {
+   background-color:gray;
  }
  
  .active {
    background-color: #4CAF50;
  }
+
+ /* end of navigation bar */
 
 body {
     margin: none;
@@ -49,15 +54,14 @@ div span {
     box-sizing: border-box;
  }
  
-
-
  #Title {
-     font-size: xx-large;
+     font-size: 60px;
      padding: 50px;
-     color:purple;
-     margin-left: 40%;
+     color:white;
+     margin-left: 30%;
      display: inline-block;
-     margin-bottom: 30px;
+     margin-top: 200px;
+     margin-bottom: 200px;
  }
 
  input {
