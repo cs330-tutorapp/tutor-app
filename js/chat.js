@@ -1,10 +1,11 @@
-
 const message = (ev) => {
     const term = document.querySelector('#input').value;
     sendmessage(term);
     if (ev) {
         ev.preventDefault();
+        ev.currentTarget.value= '';
     };
+   
 };
 
 const sendmessage = (term) => {
@@ -17,15 +18,28 @@ const sendmessage = (term) => {
 };
 
 
+// const displaymessage = (ev) => {
+//     const term = document.addEventListener("click", message()) => {
+//         if (true){ 
+//             ev.preventDefault();
+//             message();
+//             ev.currentTarget.value= '';
+//         }
+//     }
+// };
+
 document.querySelector('#input').onkeyup = (ev) => {
     // Number 13 is the "Enter" key on the keyboard
     console.log(ev.keyCode);
-    if (ev.keyCode === 13) {
-        
+    if (ev.keyCode === 13) {  
         ev.preventDefault();
         message();
         ev.currentTarget.value= '';
-
     }
 };
+
+
+
+
+
 
