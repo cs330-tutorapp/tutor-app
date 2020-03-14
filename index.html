@@ -34,15 +34,17 @@
             <!-- <th>Photo</th> -->
             <th>Courses</th>
             <th>Reviews</th>
-            <th><button type="button" onclick="alert('Sort by Ratings')">Ratings</button></th>
+            <th><button onclick="sortTable()">Ratings</button></th>
         </tr>
+
         <tr>
             <td><a href = "Profiles/AlexSmith.html">Alex Smith</a></td>
             <td><a href = "Chats/AlexSmithChat.html">Chat with Alex</td>
             <!-- <td><img src= "https://everythreeweekly.com/wp-content/uploads/2017/02/passinstudent.jpg" alt="" height=100> -->
             <td>CHEM 210-1, CHEM 210-2, CHEM 210-3, CHEM 333-0</td>
             <td><a href = "Profiles/AlexSmithReviews.html">55 Reviews</a></td>
-            <td>&#9733&#9733&#9733&#9733&#9734</td>
+            <td>5</td>
+            <!-- &#9733&#9733&#9733&#9733&#9733 -->
         </tr>
         <tr>
             <td><a href = "Profiles/EmmaCook.html">Emma Cook</a></td>
@@ -50,7 +52,8 @@
             <!-- <td><img src = "https://www.kingstonwebworks.com/wp-content/uploads/2017/08/College-Girl.jpg" alt="" height=100> -->
             <td>COMP_SCI 111, COMP_SCI 213, COMP_SCI 349</td>
             <td><a href = "Profiles/EmmaCookReviews.html">35 Reviews</a></td>
-            <td>&#9733&#9733&#9733&#9733&#9734</td>
+            <td>4.5</td>
+            <!-- &#9733&#9733&#9733&#9733&#9734 -->
         </tr>
         <tr>
             <td><a href = "Profiles/AppleAdams.html">Apple Adams</a></td>
@@ -58,7 +61,8 @@
             <!-- <td><img src = "https://d39l2hkdp2esp1.cloudfront.net/img/photo/169302/169302_00_2x.jpg?20190405113758" alt="" height=100> -->
             <td>MATH 220, MATH 224, MATH 230, MATH 234</td>
             <td><a href = "Profiles/AppleAdamsReviews.html">19 Reviews</a></td>
-            <td>&#9733&#9733&#9733&#9733&#9734</td>
+            <td>4</td>
+            <!-- &#9733&#9733&#9733&#9733 -->
         </tr>
         <tr>
             <td><a href = "Profiles/StephenAndrew.html">Stephen Andrew</a></td>
@@ -66,7 +70,8 @@
             <!-- <td><img src = "https://www.thefashionisto.com/wp-content/uploads/2019/04/College-Man.jpg" alt="" height=100> -->
             <td>BIOL_SCI 150, BIOL_SCI 217</td>
             <td><a href = "Profiles/StephenAndrewReviews.html">15 Reviews</a></td>
-            <td>&#9733&#9733&#9733&#9733&#9734</td>
+            <td>4.5</td>
+            <!-- &#9733&#9733&#9733&#9733&#9734 -->
         </tr>
         <tr>
             <td><a href = "Profiles/TonyAllen.html">Tony Allen</a></td>
@@ -74,7 +79,45 @@
             <!-- <td><img src = "https://get-a-wingman.com/wp-content/uploads/2018/09/8-Life-Hacks-For-Becoming-a-Desirable-College-Guy-660x273.jpg" alt="" height = 100> -->
             <td>ENGL 206, ENGL 207, ENGL 208</td>
             <td><a href = "Profiles/TonyAllenReviews.html">10 Reviews</a></td>
-            <td>&#9733&#9733&#9733&#9734&#9734</td>
+            <td>3</td>
         </tr>
     </table>
+
+
+    <script>
+    function sortTable() {
+        var table, rows, switching, i, x, y, shouldSwitch;
+        table = document.getElementById("myTable");
+        switching = true;
+        /*Make a loop that will continue until
+        no switching has been done:*/
+        while (switching) {
+            //start by saying: no switching is done:
+            switching = false;
+            rows = table.rows;
+            /*Loop through all table rows (except the
+            first, which contains table headers):*/
+            for (i = 1; i < (rows.length - 1); i++) {
+            //start by saying there should be no switching:
+            shouldSwitch = false;
+            /*Get the two elements you want to compare,
+            one from current row and one from the next:*/
+            x = rows[i].getElementsByTagName("TD")[4];
+            y = rows[i + 1].getElementsByTagName("TD")[4];
+            //check if the two rows should switch place:
+            if (Number(x.innerHTML) < Number(y.innerHTML)) {
+                //if so, mark as a switch and break the loop:
+                shouldSwitch = true;
+                break;
+            }
+            }
+            if (shouldSwitch) {
+            /*If a switch has been marked, make the switch
+            and mark that a switch has been done:*/
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+            }
+        }
+    }
+    </script>
 </html>
