@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <title>TUTOR APP</title>
+        <link rel="stylesheet" href="../css/home.css">
+        <link rel="stylesheet" href="../css/individualchat.css">
+    </head>
+
+    <ul>
+      <li><a href="../home.html">Home</a></li>
+      <li><a class="active" href="../chat.html">Chat</a></li>
+      <li><a href="../profile.html">Profile</a></li>
+      <li><a href="../more.html">More</a></li>
+      <li style="float:right"><a href="../index.html">Log Out</a></li>
+  </ul>
+
+    <div>
+        <span id="Title">Alex Smith</span>
+    </div>
+
+    <body>
+      <div class="chats">
+          <div class="container darker">
+            <img src = "https://res.cloudinary.com/teepublic/image/private/s--DfMDF3EU--/t_Preview/b_rgb:ffb81c,c_limit,f_jpg,h_630,q_90,w_630/v1478354686/production/designs/774752_1.jpg" alt="Avatar" class = "right">
+            <p>Hi Alex! I was wondering what your schedule is normally like.</p>
+          </div>
+
+          <div class="container lighter">
+            <img src= "https://everythreeweekly.com/wp-content/uploads/2017/02/passinstudent.jpg" alt="Avatar">
+            <p>Hey, Apple Pinneaple. I am normally free on Saturdays or Thursdays nights. What class were you thinking about getting tutoring in? </p>
+          </div>
+
+          <div class="container darker">
+            <img src = "https://res.cloudinary.com/teepublic/image/private/s--DfMDF3EU--/t_Preview/b_rgb:ffb81c,c_limit,f_jpg,h_630,q_90,w_630/v1478354686/production/designs/774752_1.jpg" alt="Avatar" class = "right">
+            <p>Okay great, I am normally free on Thursdays too. I am struggling to keep up in my Orgo and saw that you had some pretty good reviews!</p>
+          </div>
+
+          <div class="container lighter">
+            <img src= "https://everythreeweekly.com/wp-content/uploads/2017/02/passinstudent.jpg" alt="Avatar">
+            <p>Yes, I took it last year and did pretty decently in the class, but definitely had to put in the work. </p>
+          </div>
+      </div class="chats">
+    </body>
+
+    <div class="msger-inputarea">
+      <input type="text" placeholder="Type message..." id="input" value="" />
+      <button class="msger-send-btn" id="button" onclick="message()">Send</button>
+    </div>
+    
+    <script src="../js/chat.js"></script>
+
+
+</html>

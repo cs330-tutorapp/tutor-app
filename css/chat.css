@@ -1,0 +1,46 @@
+#Title {
+  font-size: 60px;
+  font-family: Arial;
+  padding: 50px;
+  color:purple;
+  margin-left: 40%;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ /* Chat containers */
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: Arial;
+  }
+  
+  /* Clear floats */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .container img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style time text */
+  .time {
+    float: right;
+    color: #aaa;
+    text-align: end;
+    font-size: large;
+  }
+  
+  
