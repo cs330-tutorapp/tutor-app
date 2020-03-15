@@ -42,15 +42,27 @@ After interviewing our target audiences, the main need for our tutoring app is t
 The different users we envision for our app are students who are looking for a tutor, students who want to work as a tutor, and possibly parents who want to browse the web. 
 
 ## Paper Prototyping (P4)
+https://www.youtube.com/watch?v=n2O4cNFuULg
+
+![Paper Prototype Testing](link-to-image)
+Generally, our users did not seem to have many problems with the tasks that were given to them. Most of the tasks were intuitive and simple. The users had little to know questions on how it worked. After the testing, the user pointed out a couple concept and usability problems. Our users did not feel that the in the bottom bar of the mobile paper prototype was integrated in the use of the app. The way we resolved this was by removing a couple of the features that were on the bar like search and group. Additionally, since our paper prototype was a mobile version, the web version had the bar be at the top of the screen which in later tests seemed more intuitive to use, which worked for later testing. Another issue the users brought up was that the calendar was not as intuitive as we thought. We fixed this by having the available days a highlighted color which makes it clear what days are free. The last thing the users said could be incorporated was the location to rate the tutor. We incorporated this under the profile of the tutor. 
 
 ## High-Fidelity Prototyping (P5, P6, & P7)
 
 ## Reflection
 
+***Accomplishments:***
+
+We managed to implement the essential functionalities we wanted in our app, including the search function, the profile page for both the student and tutor, the chat function, login, logout and sign up function. These functions allow Northwestern students and tutors to connect through our app and find a time that works for both of them. Specifically, our home page included a search bar and ratings for the tutors, where they are able to see the tutors ranked based on their rating. Students can view tutors’ profiles by clicking on their names on the home page as well as view or edit their own profiles. Students are also able to chat with tutors via the “Chat with xxx” on the home page or through “Chat” on the navigation bar. The website allows students to find, read about and contact the tutors they want and allows tutors to connect with the students. 
+
+***Next Steps:***
+
+Since the website is just an initial version of our vision, there exists more functions that we want to incorporate but could not in the time frame given to us. One of those functions is a group study option. This idea was tossed around since the beginning because it was one of the things that users wanted from an application like ours. Ideally, functions like group study will go under the More page, which is currently empty. Additionally, in the More page, users can customize the website and control settings in this page. Another function we would have added if we had more time is the calendar booking system. It would allow the user to click on the available day and see what times are available. From there they would be able to select times and then have a booking submission pop up to fill out. A final function that a future prototype would have is the ability to add reviews as a user. Currently, a user can see past reviews; however, there is no button or anything implemented to add a review. The place to add a review would be implemented in the tutor profile or a notification after a tutoring session is over.
+
 ## Links
 
-**A link to your team’s repository:** 
+**A link to your team’s repository:** https://github.com/cs330-tutorapp/tutor-app/tree/project_8
 
-**A link to a working version of your prototype (or a video of it):**
+**A link to a working version of your prototype (or a video of it):** https://youtu.be/lbH5B8aucbA 
 
-**Instructions for running your app (including how your prototype is best viewed):** 
+**Instructions for running your app (including how your prototype is best viewed):** Chrome on mac or windows
