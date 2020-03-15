@@ -1,5 +1,7 @@
 # Final Prototype
 
+Please go to index.html for the main page. 
+
 ## Problem & Related Work (P1)
 
 **Problem & Motivation:** 
