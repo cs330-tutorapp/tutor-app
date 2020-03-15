@@ -45,7 +45,7 @@ The different users we envision for our app are students who are looking for a t
 https://www.youtube.com/watch?v=n2O4cNFuULg
 
 ![Paper Prototype Testing](link-to-image)
-![Pape Protytype Images]（https://github.com/cs330-tutorapp/tutor-app/blob/project_8/Readme/Paper%20Prototype%20Home%201.png）
+![Pape Protytype Images](https://github.com/cs330-tutorapp/tutor-app/blob/project_8/Readme/Paper%20Prototype%20Home%201.HEIC）
 
 Generally, our users did not seem to have many problems with the tasks that were given to them. Most of the tasks were intuitive and simple. The users had little to no questions on how it worked. After the testing, the user pointed out a couple concept and usability problems. Our users did not feel that the bottom bar of the mobile paper prototype was integrated in the use of the app. The way we resolved this was by removing a couple of the features that were on the bar like search and group. Additionally, since our paper prototype was a mobile version, the web version had the bar at the top of the screen which in later tests seemed more intuitive to use. Another issue the users brought up was that the calendar was not as intuitive as we thought. We fixed this by having the available days a highlighted color which makes it clear what days are free. The last thing the users said could be incorporated was the location to rate the tutor. We incorporated this under the profile of the tutor. 
 
