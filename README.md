@@ -71,7 +71,6 @@ The second task is to allow the user to log into his/her account to view his/her
 
 After the user fills in the credentials and clicks on the green bar that says Login, the user will be taken to the Profile page, which contains information about the user. After the user is logged in, the user could choose to Log Out by clicking the button on the navigation bar.
 
-
 ![Profile Page](https://github.com/cs330-tutorapp/tutor-app/blob/project_8/Readme/Profile%20Page.png)
 
 ![Tutor Profile Page](https://github.com/cs330-tutorapp/tutor-app/blob/project_8/Readme/Tutor%20Profile.png)
