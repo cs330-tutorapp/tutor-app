@@ -89,8 +89,6 @@ The chatting function allows the students to talk to the tutor about class exper
 
 ![Individual Chat](https://github.com/cs330-tutorapp/tutor-app/blob/project_8/Readme/Individual%20Chat.png)
 
-![Send Message](https://github.com/cs330-tutorapp/tutor-app/blob/project_8/Readme/Send%20Message.png)
-
 ***A description of your three components you chose to implement:***
 
 *Interactive Data Filter:*
